@@ -1,0 +1,21 @@
+# Entorno
+.venv/
+venv/
+env-*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos y artefactos
+data/processed/
+models/**/*.pkl
+models/**/*.keras
+mlruns/
+mlartifacts/
+outputs/**/*.html
+
+# Sistema / IDE
+.DS_Store
+.vscode/
+.idea/
+.env
